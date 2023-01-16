@@ -168,7 +168,6 @@ label {
 	border: none;
 	margin-bottom: 4px;
 	box-shadow: 0px 3px 6px #00000029;
-
 }
 
 .preview {
@@ -249,3 +248,6 @@ label {
 	width: 22vw;
 }
 
+footer {
+	border-top: 1px solid #707070;
+}
