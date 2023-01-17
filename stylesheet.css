@@ -18,7 +18,6 @@ h2 {
 	padding-left: 14px;
 }
 
-
 h4 {
 	font-weight: bold;
 }
@@ -242,10 +241,50 @@ label {
 }
 
 .page-namber {
-	background-color: #bbb;
-	text-align: center;
-	margin: 0 auto 5.9vh;
-	width: 22vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5.9vh;
+}
+
+.arrow {
+	position: relative;
+}
+
+.arrow::before {
+	content: '';
+	width: 12px;
+	height: 12px;
+	border-top: solid 2px #707070;
+	border-right: solid 2px #707070;
+	position: absolute;
+	left: 2.5em;
+	top: 8px;
+}
+
+.arrow.arrow-right::before {
+	transform: rotate(45deg);
+}
+
+.page-namber p {
+	font-weight: bold;
+}
+
+.page-namber p:first-child {
+	display: flex;
+	color: #FFF;
+	background-color: #FF9900;
+	width: 40px;
+	height: 40px;
+	border-radius: 50px;
+	box-sizing: content-box;
+	justify-content: center;
+	align-items: center;
+}
+
+.page-namber p~p {
+	margin-left: 2em;
+	margin-right: 0.5em;
 }
 
 .oshirase {
