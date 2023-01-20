@@ -359,7 +359,7 @@ footer {
 }
 
 .big-button {
-	margin-bottom: 7.4vh;
+	margin-bottom: 80px;
 }
 
 .big-button .preview {
@@ -371,7 +371,7 @@ footer {
 
 #modal-content2 {
 	width: 60%;
-	height: 40vh;
+	height: 450px;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -387,6 +387,6 @@ footer {
 }
 
 #modal-content2 p {
-	margin: 7.4vh;
+	margin: 80px;
 }
 
